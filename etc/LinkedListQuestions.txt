@@ -1,0 +1,24 @@
+http://www.crazyforcode.com/linked-list/
+
+Implement Stack and Queue using Linked List in Java
+Sort a Linked List of 0s, 1s and 2s
+Repeatedly Delete N nodes after M nodes of a Linked list
+Print Linked List Elements in Reverse order
+Remove Duplicates from a Linked List
+Reverse a Linked List using Recursion
+Reverse every k nodes of a linked list
+Find loop in linked list and remove the loop
+Convert Sorted Linked list to balanced BST
+Merge a linked list into another linked list at alternate positions
+Move last node to front in linked list
+Swap every two nodes in a linked list
+Delete alternate nodes of a Linked List
+Frequency of a given number in a Linked List
+Copy a linked list with next and arbit pointer
+Rotate linked list by K nodes
+Reverse a singly linked list
+Singly Linked List – Delete Node
+Write a function to get the intersection point of two Linked Lists (Y Shape)
+Write a program to detect loop in a Linked List
+Insert nodes into a linked list in a sorted fashion
+Write a C program to return the nth node from the end of a linked list

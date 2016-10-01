@@ -1,0 +1,345 @@
+General
+===========
+1. Design Patterns [done]
+	- Creational -> Factory, Abstract Factory, Singleton, Builder, Prototype
+	- Structural -> Proxy
+	- Behaviorial -> Observer
+
+2. Data Structure
+
+	- Stacks
+		http://www.careercup.com/question?id=14462745
+
+	- Difference b/w ArrayList and LinkedList
+		http://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist
+	- LinkedList
+		Circular Linked List - http://www.sanfoundry.com/java-program-implement-circular-singly-linked-list/
+		Doubly Linked List - http://java2novice.com/data-structures-in-java/linked-list/doubly-linked-list/
+		http://cslibrary.stanford.edu/105/LinkedListProblems.pdf
+
+	- Queue
+	- Tree (BST)
+	 5
+   /   \
+  1     8
+   \   / \
+    3 6   9
+       \   \
+        7   13
+        
+        https://en.wikipedia.org/wiki/Tree_traversal
+        
+        Traversing tree in order
+		1 3 5 6 7 8 9 13 
+		
+		Traversing tree pre order
+		5 1 3 8 6 7 9 13 
+		
+		Traversing tree post order
+		3 1 7 6 13 9 8 5 
+
+		Height of tree
+		4
+
+		Top view
+		1 5 8 9 13 
+		
+		Level Order / BFS
+		5 1 8 3 6 9 7 13 
+        
+		http://www.codeproject.com/Articles/53366/Binary-Trees-in-Java
+		http://stackoverflow.com/questions/270080/difference-between-a-linkedlist-and-a-binary-search-tree
+		http://stackoverflow.com/questions/6380231/difference-between-binary-tree-and-binary-search-tree
+		http://stackoverflow.com/questions/8641883/why-java-collections-api-does-not-have-tree-implementation
+		
+		http://stackoverflow.com/questions/1090458/instantiating-a-generic-class-in-java
+		https://msdn.microsoft.com/en-us/library/ms379572(v=vs.80).aspx
+		https://en.wikipedia.org/wiki/Tree_traversal
+
+		Topview
+			http://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/
+			http://algorithms.tutorialhorizon.com/print-the-top-view-of-a-binary-tree/
+			
+		Vertical order
+			http://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/
+		
+		Level order / BFS
+			http://articles.leetcode.com/2010/09/printing-binary-tree-in-level-order.html
+			
+3. String related questions [done]
+4. Sorting Algos
+	http://stackoverflow.com/questions/15154158/why-collections-sort-uses-merge-sort-instead-of-quicksort
+5. Pull/StAX vs Push/SAX parsers
+	- https://docs.oracle.com/cd/E19159-01/819-3669/bnbdy/index.html
+	
+6. work queue processor design pattern
+7. byte, hex
+	http://forums.d2jsp.org/topic.php?t=3070164&p=
+	
+8. regex
+	http://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
+	http://stackoverflow.com/questions/12310978/check-if-string-ends-with-certain-pattern
+	http://stackoverflow.com/questions/7866320/how-to-match-letters-only-using-java-regex-matches-method
+	https://blogs.oracle.com/xuemingshen/entry/case_insensitive_matching_in_java
+	http://stackoverflow.com/questions/3862479/regular-expression-for-dot
+	http://stackoverflow.com/questions/23110334/regex-to-check-for-all-letters-in-the-alphabet
+	http://www.mkyong.com/regular-expressions/10-java-regular-expression-examples-you-should-know/
+	http://stackoverflow.com/questions/17933119/java-regular-expression-where-each-character-occurs-0-1-times
+	
+9. Find palindromes all
+	http://stackoverflow.com/questions/6401289/how-to-find-out-all-palindromic-numbers
+
+10. Finding substrings
+	https://en.wikipedia.org/wiki/Suffix_tree	
+	http://www.sanfoundry.com/java-program-implement-suffix-tree/
+	
+11. git
+		https://help.github.com/articles/generating-ssh-keys/
+		https://help.github.com/articles/using-ssh-over-the-https-port/
+		http://stackoverflow.com/questions/2432764/change-the-uri-url-for-a-remote-git-repository
+		
+12. search UX design
+		http://www.smashingmagazine.com/2012/04/ui-patterns-for-mobile-apps-search-sort-filter/
+		
+13. http://cslibrary.stanford.edu/105/LinkedListProblems.pdf
+14. http://www.careercup.com/question?id=14462745
+15. http://stackoverflow.com/questions/6565357/git-push-requires-username-and-password
+	
+	
+Android
+1. Activity lifecycle
+	http://developer.android.com/training/basics/activity-lifecycle/recreating.html
+	http://stackoverflow.com/questions/12793069/android-onsaveinstancestate-not-being-called-from-activity
+	http://stackoverflow.com/questions/8515936/android-activity-life-cycle-what-are-all-these-methods-for
+	http://stackoverflow.com/questions/6812003/difference-between-oncreate-and-onstart
+	http://hmkcode.com/android-start-another-activity-of-another-application/
+	
+	animation
+		http://stackoverflow.com/questions/2651360/how-to-provide-animation-when-calling-another-activity-in-android
+		
+	startActivities((please note s at the end))
+		http://stackoverflow.com/questions/24295906/why-use-start-activities
+	
+2. Launch Modes
+	search for launch mode in http://developer.android.com/guide/topics/manifest/activity-element.html [example pending]
+	http://blog.akquinet.de/2011/02/25/android-activities-and-tasks-series-%E2%80%93-activity%C2%A0attributes/
+	
+3. Services
+	- Unbound and bound services
+		http://stackoverflow.com/questions/25240299/can-anybody-explain-what-is-difference-between-unbound-and-bound-service-in-andr
+	- IntentService http://javatechig.com/android/creating-a-background-service-in-android
+	http://codetheory.in/android-interprocess-communication-ipc-messenger-remote-bound-services/
+	http://stackoverflow.com/questions/10547577/how-can-a-remote-service-send-messages-to-a-bound-activity
+	
+	http://stackoverflow.com/questions/10909683/launch-android-application-without-main-activity-and-start-service-on-launching
+	http://stackoverflow.com/questions/4468006/can-i-start-a-service-without-activity-or-receiver
+	
+	Android Services vs Background Threads
+		http://cogitolearning.co.uk/?p=780
+		http://stackoverflow.com/a/22934485/2694480
+	
+4. BroadcastReciever [done]
+5. Fragments
+6. AsyncTask [done]
+	- Retain state across configuration changes [done]
+	http://stackoverflow.com/questions/10706897/android-java-onprogressupdate-not-being-called
+	
+7. Intents
+8. WindowManager
+9. Parcelable vs Serializable
+	http://www.3pillarglobal.com/insights/parcelable-vs-java-serialization-in-android-app-development
+	Parcelable 
+		http://stackoverflow.com/questions/4076946/parcelable-where-when-is-describecontents-used/4914799#4914799
+		http://stackoverflow.com/questions/4778834/purpose-of-describecontents-of-parcelable-interface
+10. Google Map
+	http://www.vogella.com/tutorials/AndroidGoogleMaps/article.html
+11. LBS
+12. Camera
+13. Media Player
+14. Image Downloader
+15. Notification [done]
+16. Loopers and Handlers (IdleHandler)
+		http://stackoverflow.com/questions/7597742/what-is-the-purpose-of-looper-and-how-to-use-it
+		http://codetheory.in/android-handlers-runnables-loopers-messagequeue-handlerthread/
+		
+17. Loaders and LoaderManagers
+		http://www.androiddesignpatterns.com/2012/08/implementing-loaders.html
+		http://www.grokkingandroid.com/using-loaders-in-android/
+		
+		column '_id' does not exist loader
+		http://stackoverflow.com/questions/3359414/android-column-id-does-not-exist?answertab=active#tab-top
+18. SMS manager
+19. Animations [done]
+20. How to secure databases
+	-http://stackoverflow.com/questions/27544281/secure-preferences-or-database-file-in-the-data-directory
+21. Proguard how to [done]
+22. ViewPager - http://developer.android.com/reference/android/support/v4/view/ViewPager.html
+23. Tasks and Back Stack - http://developer.android.com/guide/components/tasks-and-back-stack.html
+24. Activity elements - http://developer.android.com/guide/topics/manifest/activity-element.html	
+25. Memory Analyzer - https://developer.android.com/tools/debugging/debugging-memory.html
+26. SQLCipher - http://stackoverflow.com/questions/24576229/encrypt-sqlite-database-android
+27. ViewFlipper
+		http://examples.javacodegeeks.com/android/core/widget/viewflipper/android-viewflipper-example/
+28. GCM - google cloud messaging
+29. RecyclerView - 
+	http://www.grokkingandroid.com/first-glance-androids-recyclerview/
+	http://stackoverflow.com/questions/26570325/what-are-recycler-view-advantages-compared-to-listview
+	Expandable List with RecyclerView
+		http://stackoverflow.com/questions/26419161/expandable-list-with-recyclerview
+		
+	http://stackoverflow.com/questions/24885223/why-doesnt-recyclerview-have-onitemclicklistener-and-how-recyclerview-is-dif
+	http://www.littlerobots.nl/blog/Handle-Android-RecyclerView-Clicks/
+		
+30. Content Provider
+	https://github.com/codepath/android_guides/wiki/Loading-Contacts-with-Content-Providers
+	https://newcircle.com/s/post/1375/android_content_provider_tutorial
+	http://stackoverflow.com/questions/5351093/what-is-the-meaning-of-vnd-in-mime-types
+
+31. Separate XMLs
+		http://stackoverflow.com/questions/20570204/separate-xml-line-for-debug-or-release-mode-in-android-manifest
+		http://stackoverflow.com/questions/29317668/how-can-i-have-different-manifest-files-for-the-release-and-debug-versions
+		
+32. Icons
+		http://iconhandbook.co.uk/reference/chart/android/
+
+33. CooridnatorLayout
+		https://lab.getbase.com/introduction-to-coordinator-layout-on-android/
+		http://stackoverflow.com/questions/30940698/linearlayout-overlapping-support-coordinatorlayout		
+		
+	
+34. Cursor
+		http://stackoverflow.com/questions/10723770/whats-the-best-way-to-iterate-an-android-cursor
+	
+35. Localisation
+		http://www.icanlocalize.com/site/tutorials/android-application-localization-tutorial/	
+		
+		
+36. Butter Knife
+		http://jakewharton.github.io/butterknife/
+		https://github.com/JakeWharton/butterknife
+		why public access modifier
+			http://stackoverflow.com/questions/27244742/butterknife-view-injection
+			
+
+37. Search
+		http://developer.android.com/guide/topics/search/search-dialog.html
+		http://karanbalkar.com/2014/06/tutorial-84-implement-searchview-in-android/
+		http://stackoverflow.com/questions/7230893/android-search-with-fragments/10479208#10479208 
+		
+38. 9-Patch image vs color
+		http://stackoverflow.com/questions/18073505/what-should-i-use-for-better-performance-nine-patch-or-drawable-xml-resource
+		
+39. How to apply selector and shape at the same time
+	http://stackoverflow.com/questions/7606995/android-how-apply-shape-and-selector-simultaneously-for-button
+	
+40. Volley
+	http://developer.android.com/training/volley/index.html
+	http://stackoverflow.com/questions/17049473/how-to-set-custom-header-in-volley-request
+	https://teamtreehouse.com/community/volley-sending-get-request-with-parameters-how-to-flatten-mapstringstring-parameters-correctly-into-a-query-string
+	http://stackoverflow.com/questions/10786042/java-url-encoding-of-query-string-parameters
+
+41. EditText
+		http://stackoverflow.com/a/29963972/2694480
+		
+		http://developer.android.com/tools/support-library/features.html	
+		
+		
+42. collapsingtoolbarlayout
+		http://stackoverflow.com/questions/30682548/collapsingtoolbarlayout-settitle-does-not-update-unless-collapsed	
+		
+		
+43. location data
+		http://www.androidcentral.com/manage-location-data-pictures-you-take-privacy-and-security
+		
+44. http://stackoverflow.com/questions/23915619/android-archive-library-aar-vs-standard-jar
+
+
+45. Notification
+		http://developer.android.com/training/notify-user/managing.html
+		
+
+46. Dialog		
+	https://androiddesk.wordpress.com/2012/01/31/creating-a-progress-dialog-in-android/
+
+47. WeakReference
+		http://developer.android.com/reference/java/lang/ref/WeakReference.html
+		http://stackoverflow.com/questions/3243215/how-to-use-weakreference-in-java-and-android-development
+
+48. http://stackoverflow.com/questions/6612263/converting-input-stream-into-bitmap
+
+
+49. Saving a file
+	java.io.FileNotFoundException: /file3: open failed: EROFS (Read-only file system)
+	
+		http://stackoverflow.com/questions/15711098/trying-to-create-a-file-in-android-open-failed-erofs-read-only-file-system
+		
+	http://developer.android.com/training/basics/data-storage/files.html
+	http://stackoverflow.com/questions/649154/save-bitmap-to-location
+
+50. http://stackoverflow.com/questions/2025282/difference-between-px-dp-dip-and-sp-in-android?rq=1
+
+51. BroadcastReceiver
+		http://stackoverflow.com/questions/15292376/how-to-start-the-app-on-power-button-press
+		http://stackoverflow.com/questions/14643385/how-to-update-ui-in-a-broadcastreceiver
+		http://stackoverflow.com/questions/23364668/register-a-local-broadcastreceiver-in-androidmanifest-xml	
+
+
+52. Flashlight
+		http://stackoverflow.com/questions/5503480/use-camera-flashlight-in-android
+		http://developer.android.com/reference/android/hardware/camera2/CameraManager.html#setTorchMode(java.lang.String, boolean)		
+
+53. DownloadManager
+		http://developer.android.com/reference/android/app/DownloadManager.html
+
+
+54. ART vs Dalvik
+		https://software.intel.com/en-us/blogs/2014/06/18/art-vs-dalvik-introducing-the-new-android-x86-runtime
+		
+
+55. LocalBroatcastManager
+		http://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html
+		http://stackoverflow.com/questions/8802157/how-to-use-localbroadcastmanager
+		
+56. Mock location on device
+		http://stackoverflow.com/questions/2531317/android-mock-location-on-device
+
+57. ConnectivityService
+		http://stackoverflow.com/questions/32242384/getallnetworkinfo-is-deprecated-how-to-use-getallnetworks-to-check-network
+		http://stackoverflow.com/questions/8818290/how-to-connect-to-a-specific-wifi-network-in-android-programmatically
+		
+
+58. Handlers
+		http://stackoverflow.com/questions/14601730/how-handler-classes-work-in-android		
+		
+59. Toast
+		http://stackoverflow.com/questions/3134683/android-toast-in-a-thread		
+		
+Java
+==============
+1. Generics
+2. Comparable vs Comparator
+3. HashCode and equals contract [done]
+4. Observable [done]
+5. Thread and Synchronization
+6. Security
+7. ExceptionHandling [done] - http://examples.javacodegeeks.com/java-basics/exceptions/java-custom-exception-example/
+8. Access Modifiers - [confused] https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
+9. static - 
+	http://crunchify.com/java-static-methods-variables-static-block-and-class-with-example/
+	http://stackoverflow.com/questions/2420389/static-initialization-blocks
+	http://stackoverflow.com/questions/1355810/how-is-an-instance-initializer-different-from-a-constructor
+	http://stackoverflow.com/questions/11869972/what-is-the-use-of-non-static-block-in-java
+	
+10. Difference b/w HashMap and ConcurrentHashMap
+		http://java67.blogspot.in/2012/08/difference-between-hashmap-and-concurrentHashMap-java-collection.html
+
+11. Java operatiors
+		http://www.wideskills.com/java-tutorial/java-operators-tutorial
+
+12. HashMap
+	http://stackoverflow.com/questions/6493605/how-does-a-java-hashmap-handle-different-objects-with-the-same-hash-code
+
+13. HttpUrlConnection
+		http://developer.android.com/reference/java/net/HttpURLConnection.html
+		
+14. 

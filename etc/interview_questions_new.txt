@@ -1,0 +1,15 @@
+real life example for interface
+real life example of abstract class
+	http://www.codeproject.com/Questions/43970/Real-world-examples-of-abstract-classes-and-interf
+	
+can we use any other storage with contentprovider other than sqlite
+	can we use any other storage with contentprovider other than sqlite
+
+why to use ContentProvider
+	http://www.sitepoint.com/using-androids-content-providers-manage-app-data/
+	
+benefits of using service android
+
+why double checked singleton are used
+	http://javarevisited.blogspot.in/2014/05/double-checked-locking-on-singleton-in-java.html
+	

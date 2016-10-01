@@ -1,0 +1,62 @@
+mergesort recursion tree
+
+merge(0,9)
+	merge(0,4)
+		merge(0,2)
+			merge(0,1)
+				mergeL(0,0) stop			
+				mergeH(0+1,1) stop
+				mergeparts(0,0,1)				
+			mergeH(1+1,2) stop
+			mergeparts(0,1,2)
+		
+		mergeH(2+1,4)
+			mergeL(3,3) stop
+			mergeH(3+1,4) stop
+			mergeparts(3,3,4)	
+		mergeparts(0,2,4)
+	mergeH(4+1,9)
+		mergeL(5,7)
+			mergeL(5,6)
+				mergeL(5,5) stop
+				mergeH(5+1,6) stop
+				mergeparts(5,5,6)			
+			mergeH(6+1,7) stop
+			mergeparts(5,6,7)
+		mergeH(7+1,9)
+			mergeL(8,8) stop
+			merge(8+1,9) stop
+			mergeparts(8,8,9)		
+		mergeparts(5,7,9)		
+	mergeparts(0,4,9)
+	
+45, 23, 11, 89, 77, 98, 4, 28, 65, 43, 
+
+low=0 | middle=0 | high=1
+23, 45, 11, 89, 77, 98, 4, 28, 65, 43, 
+
+low=0 | middle=1 | high=2
+11, 23, 45, 89, 77, 98, 4, 28, 65, 43, 
+
+low=3 | middle=3 | high=4
+11, 23, 45, 77, 89, 98, 4, 28, 65, 43, 
+
+low=0 | middle=2 | high=4
+11, 23, 45, 77, 89, 98, 4, 28, 65, 43, 
+
+low=5 | middle=5 | high=6
+11, 23, 45, 77, 89, 4, 98, 28, 65, 43, 
+
+low=5 | middle=6 | high=7
+11, 23, 45, 77, 89, 4, 28, 98, 65, 43, 
+
+low=8 | middle=8 | high=9
+11, 23, 45, 77, 89, 4, 28, 98, 43, 65, 
+
+low=5 | middle=7 | high=9
+11, 23, 45, 77, 89, 4, 28, 43, 65, 98, 
+
+low=0 | middle=4 | high=9
+4, 11, 23, 28, 43, 45, 65, 77, 89, 98, 
+
+4 11 23 28 43 45 65 77 89 98 

@@ -1,0 +1,104 @@
+27/3/2015
+=======================
+1. Difference b/w apply and commit in editor for Shared Preference
+	http://stackoverflow.com/questions/5960678/whats-the-difference-between-commit-and-apply-in-shared-preference	
+	
+2. Where shared preferences are stored
+	http://stackoverflow.com/questions/6146106/where-are-shared-preferences-stored
+	
+3. How to save Image in shared preferences
+	https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo
+	
+4. Find duplicate characters in a String and count the number of occurances using Java
+	http://stackoverflow.com/questions/13119926/find-duplicate-characters-in-a-string-and-count-the-number-of-occurances-using-j
+	
+5. String related interview questions
+	http://javarevisited.blogspot.in/2015/01/top-20-string-coding-interview-question-programming-interview.html
+	
+6. Factory Pattern
+	valueOf
+
+7. Collections
+	http://stackoverflow.com/questions/8185090/is-there-an-insertion-order-preserving-set-in-java
+	
+8. Checking if a string matches an array of valid characters
+	http://codereview.stackexchange.com/questions/39953/checking-if-a-string-matches-an-array-of-valid-characters
+
+9.	Algorithm to check the order of substrings in combined string	
+	http://stackoverflow.com/questions/12556691/algorithm-to-check-the-order-of-substrings-in-combined-string
+
+10. Tough java questions
+	http://java67.blogspot.in/2012/09/top-10-tough-core-java-interview-questions-answers.html
+	http://javarevisited.blogspot.sg/2011/04/top-20-core-java-interview-questions.html
+	
+11. Singleton
+	http://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-with-examples
+	http://javarevisited.blogspot.gr/2012/07/why-enum-singleton-are-better-in-java.html
+	http://javarevisited.blogspot.sg/2011/03/10-interview-questions-on-singleton.html
+	http://www.journaldev.com/171/thread-safety-in-java-singleton-classes-with-example-code
+	http://stackoverflow.com/questions/7855700/why-is-volatile-used-in-this-example-of-double-checked-locking
+	
+12. Why declare an interface as abstract? for example: public abstract interface java.io.Serializable
+	http://stackoverflow.com/questions/2134200/why-declare-an-interface-as-abstract
+	
+13. Multithreading
+	http://jcip.net.s3-website-us-east-1.amaz onaws.com/listings.html
+	http://www.journaldev.com/1061/java-synchronization-and-thread-safety-tutorial-with-examples
+	
+14. Deadlock
+	http://javarevisited.blogspot.sg/2010/10/what-is-deadlock-in-java-how-to-fix-it.html
+	
+15. AsyncTask (how to handle asynctask for screenorientation changes in android)
+	https://blogactivity.wordpress.com/2011/09/01/proper-use-of-asynctask/
+	http://stackoverflow.com/questions/3357477/is-asynctask-really-conceptually-flawed-or-am-i-just-missing-something
+	http://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html
+	https://gist.github.com/daichan4649/2480065
+	
+16. Is there any server provides image URL for testing
+	http://superuser.com/questions/461402/is-there-any-server-provides-image-url-for-testing
+	
+17. http://beginnersbook.com/2013/12/difference-between-arraylist-and-linkedlist-in-java/
+18. http://stackoverflow.com/questions/9272217/service-or-bound-service
+
+19. Proxy vs Singleton design pattern
+	http://stackoverflow.com/questions/2094408/how-can-the-proxy-pattern-be-used-to-replace-a-singleton
+	
+20. Overlay with windows manager
+	http://stackoverflow.com/questions/4481226/creating-a-system-overlay-window-always-on-top
+
+21. Broadcast and ADB
+	http://stackoverflow.com/questions/5171354/android-adb-shell-am-broadcast-bad-component-name
+
+22. dispatchMessage vs sendMessage
+	http://stackoverflow.com/questions/12359989/handler-dispatchmessage-hangs-crashes-when-used-from-opengl-thread
+
+23. Looper
+	http://stackoverflow.com/questions/7597742/what-is-the-purpose-of-looper-and-how-to-use-it
+	http://prasanta-paul.blogspot.kr/2013/09/android-looper-and-toast-from.html
+	
+24. Optimized permutation algorithm for finding palindromes as well
+	http://stackoverflow.com/questions/20544611/optimized-algorithm-for-finding-permutation-of-a-given-string
+
+25. Dynamic programming
+
+	http://www.codechef.com/wiki/tutorial-dynamic-programming
+	http://www.javacodegeeks.com/2014/02/dynamic-programming-introduction.html
+	http://stackoverflow.com/questions/6877249/find-the-number-of-occurrences-of-a-subsequence-in-a-string
+	http://stackoverflow.com/questions/5151483/how-to-find-the-number-of-distinct-subsequences-of-a-string
+	http://introcs.cs.princeton.edu/java/96optimization/
+	http://stackoverflow.com/questions/17779299/java-programming-dynamic-programming-on-stairs-example
+	http://stackoverflow.com/questions/12255193/count-number-of-possible-paths-up-ladder
+
+26. Sorting Algorithms
+		http://stackoverflow.com/questions/15154158/why-collections-sort-uses-merge-sort-instead-of-quicksort
+
+27. Android Intent, Tasks, LaunchModes basics
+	http://blog.akquinet.de/2010/02/17/android-activites-and-tasks-series-an-introduction-to-androids-ui-component-model/
+	
+28. Map Key V2 keytool usage
+	http://stackoverflow.com/questions/27609442/how-to-get-the-sha1-fingerprint-certificate-in-android-studio-for-debug-mode
+	
+29. launcher app
+	http://stackoverflow.com/questions/30145398/getting-applications-with-2-or-more-activities
+	
+30. http://skillgun.com/android/services/interview-questions-and-answers
